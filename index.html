@@ -1,1 +1,7 @@
 <div id="app"></div>
+
+<Script>
+  fetch('https://hrlink.bubbleapps.io/version-test/api/1.1/obj/link_event')
+  .then(res => res.json())
+  .then(json => console.log(json));
+</script>
