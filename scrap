@@ -1,0 +1,7 @@
+//returns response 200 without data as a function
+  fetch('https://hrlink.bubbleapps.io/version-test/api/1.1/obj/link_event', {
+  "method": "GET",
+//  "headers": {}
+}).then(function(resp){
+	console.log(resp);
+});
