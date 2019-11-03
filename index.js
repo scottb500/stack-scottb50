@@ -15,10 +15,22 @@ var linkEvents = null;
   .catch((err)=>console.log(err));
 
 
+  console.log('linkEvents = '+linkEvents)
+
+
+//from zing
+
+/* // window.onload event for Javascript to run after HTML
+// because this Javascript is injected into the document head
+window.addEventListener('load', () => {
+  // Javascript code to execute after DOM content
+  const zgRef = document.querySelector('zing-grid');
+  zgRef.executeOnLoad(() => {
+  	// Add event listener to button
+    reloadBtn.addEventListener('click', () => {
+      zgRef.refresh();
+    });
+  });
+});
   
-
-
-
-  
-  console.log(linkEvents)
-
+ */
