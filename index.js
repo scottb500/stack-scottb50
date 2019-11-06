@@ -5,11 +5,11 @@ import './style.css';
 
 // Write Javascript code!
 const appDiv = document.getElementById('app');
-appDiv.innerHTML = `<h1>JS Starter</h1>`;
+appDiv.innerHTML = `<h1>CURDtastic</h1>`;
 
 //returns response.results with data
 var linkEvents = null;
-  fetch('https://hrlink.bubbleapps.io/version-test/api/1.1/obj/link_event')
+  fetch('https://scrappy.bubbleapps.io/version-test/api/1.1/obj/link-event')
   .then(res => res.json())
   .then(json => console.log(json))  
   .catch((err)=>console.log(err));
